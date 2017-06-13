@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoandroid"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.eduda.trabajopracticon1.segunda"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ingrese su Nombre :"
+        android:layout_below="@+id/txtSaludo"
+        android:layout_alignRight="@+id/btnIngresar"
+        android:layout_alignEnd="@+id/btnIngresar"
+        android:layout_marginTop="118dp" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/Boton"
+        tools:text="@string/Boton" />
+
+    <TextView
+        android:id="@+id/txtSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/Bienvenido"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="@string/Bienvenido"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/edtNombre"
+        android:layout_alignEnd="@+id/edtNombre" />
+
+</RelativeLayout>
+
