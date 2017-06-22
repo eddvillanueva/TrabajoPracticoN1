@@ -20,10 +20,10 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Ingrese su Nombre :"
+        android:layout_marginTop="57dp"
         android:layout_below="@+id/txtSaludo"
         android:layout_alignRight="@+id/btnIngresar"
-        android:layout_alignEnd="@+id/btnIngresar"
-        android:layout_marginTop="118dp" />
+        android:layout_alignEnd="@+id/btnIngresar" />
 
     <Button
         android:id="@+id/btnIngresar"

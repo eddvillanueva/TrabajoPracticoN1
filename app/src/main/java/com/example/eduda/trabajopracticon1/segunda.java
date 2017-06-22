@@ -39,10 +39,10 @@ public class segunda extends AppCompatActivity {
         // getSupportActionBar().setTitle("Algun Titulo");   ///setear el titulo en tiempo de ejecucion
         // getSupportActionBar().setIcon(@);        // setea un icono que aparezca en la barra de titulos
 
-        //  txtSaludo = (TextView) findViewById(R.id.txtSaludo);
+        //  txtSaludo = (TextView) findViewById(R.id.txtSaludo);   (TextView) es casquear al control que corresponda
         //declaras txtsaludo en un TextView como si fuera int i;   i=0;
         //    edtNombre = (EditText) findViewById(R.id.edtNombre);
-
+         // esto va en la primera activity !!!!!!!!!
         //}
 
 
